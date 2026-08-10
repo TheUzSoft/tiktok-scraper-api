@@ -1,0 +1,65 @@
+{
+  "info": {
+    "name": "TikTok Scraper API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "TikTok Downloader",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-RapidAPI-Key",
+            "value": "{{RAPIDAPI_KEY}}"
+          },
+          {
+            "key": "X-RapidAPI-Host",
+            "value": "tiktok-scraper-fast-stable1.p.rapidapi.com"
+          }
+        ],
+        "url": {
+          "raw": "https://tiktok-scraper-fast-stable1.p.rapidapi.com/api/v1/download",
+          "protocol": "https",
+          "host": [
+            "tiktok-scraper-fast-stable1.p.rapidapi.com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "download"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Instagram Downloader",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-RapidAPI-Key",
+            "value": "{{RAPIDAPI_KEY}}"
+          },
+          {
+            "key": "X-RapidAPI-Host",
+            "value": "tiktok-scraper-fast-stable1.p.rapidapi.com"
+          }
+        ],
+        "url": {
+          "raw": "https://tiktok-scraper-fast-stable1.p.rapidapi.com/api/v1/instagram/download",
+          "protocol": "https",
+          "host": [
+            "tiktok-scraper-fast-stable1.p.rapidapi.com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "instagram",
+            "download"
+          ]
+        }
+      }
+    }
+  ]
+}

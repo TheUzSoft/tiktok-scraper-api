@@ -50,3 +50,27 @@ Explore our other high-performance APIs on RapidAPI:
 
 ## License
 Licensed under the [MIT License](LICENSE).
+
+## Supported Languages Matrix
+
+We provide full native code integration examples and SDK setups across multiple languages:
+
+| Language | Example | Package Status | Installation |
+|---|---|---|---|
+| **JavaScript** | [examples/javascript/](examples/javascript/) | Scoped NPM Pending | `npm install @theuzsoft/tiktok-scraper-api-sdk` |
+| **TypeScript** | [examples/typescript/](examples/typescript/) | Scoped NPM Pending | `npm install @theuzsoft/tiktok-scraper-api-sdk` |
+| **Python** | [examples/python/](examples/python/) | PyPI Registry Pending | `pip install tiktok-scraper-api-sdk` |
+| **Go** | [examples/go/](examples/go/) | Go Modules Ready | `go get github.com/theuzsoft/tiktok-scraper-api` |
+| **PHP** | [examples/php/](examples/php/) | Packagist Pending | `composer require theuzsoft/tiktok-scraper-api` |
+| **C#** | [examples/csharp/](examples/csharp/) | NuGet Pending | `dotnet add package TheUzSoft.tiktok-scraper-api` |
+| **Ruby** | [examples/ruby/](examples/ruby/) | RubyGems Pending | `gem install tiktok-scraper-api-sdk` |
+| **Java** | [examples/java/](examples/java/) | Maven Central Pending | *See Maven Config* |
+| **Kotlin** | [examples/kotlin/](examples/kotlin/) | Maven Central Pending | *See Gradle Config* |
+| **Rust** | [examples/rust/](examples/rust/) | crates.io Pending | `cargo add tiktok-scraper-api-sdk` |
+| **Dart (Flutter)** | [examples/dart/](examples/dart/) | Pub.dev Pending | `dart pub add tiktok-scraper-api_sdk` |
+| **Swift** | [examples/swift/](examples/swift/) | SPM Ready | *Add via Swift Package Manager* |
+| **PowerShell** | [examples/powershell/](examples/powershell/) | Script Ready | *Direct Usage* |
+
+## Postman & OpenAPI Specification
+- **Postman Collection:** Import [postman/collection.json](postman/collection.json) to quickly test requests locally.
+- **OpenAPI Schema:** Download and inspect [openapi.json](openapi.json).

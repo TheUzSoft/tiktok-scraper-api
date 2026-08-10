@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TikTok Scraper API",
+    "version": "1.0.0",
+    "description": "Scrape TikTok and Instagram details concurrently."
+  },
+  "servers": [
+    {
+      "url": "https://tiktok-scraper-fast-stable1.p.rapidapi.com"
+    }
+  ],
+  "paths": {
+    "/api/v1/download": {
+      "get": {
+        "summary": "TikTok Downloader",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "TikTok data response"
+          }
+        }
+      }
+    },
+    "/api/v1/instagram/download": {
+      "get": {
+        "summary": "Instagram Downloader",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Instagram data response"
+          }
+        }
+      }
+    }
+  }
+}
